@@ -1,19 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
-    <title>Other page</title>
+    <title>Pagina de registro</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
     <!-- <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>-->
   </head>
   <body>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/page2.html" aria-current="page">Other page</a>
-    </nav>
-    <main>
-      <h1>My other page</h1>
-    </main>
+    <h1>Registro de usuário</h1>
+    <ol type ="I">
+      <li><a href="/">Pagina inicial</a></li>
+    </ol>
+    <form>
+		<label for="name">Nome:</label>
+		<input type="text" name="name" required><br><br>
+		
+		<label for="email">Email:</label>
+		<input type="email" name="email" required><br><br>
+		
+		<label for="password">Senha:</label>
+		<input type="password" name="password" required><br><br>
+		
+		<label for="birthday">Data de nascimento:</label>
+		<input type="date" name="birthday" required><br><br>
+
+    <label for="sex">Sexo:</label>
+		<input type="text" name="sex" required><br><br>
+		
+		<label for="state">State:</label>
+		<select id="state" name="state" required>
+			<option value="" selected disabled>Please select</option>
+			<option value="AC">Acre</option>
+			<option value="AL">Alagoas</option>
+			<option value="AP">Amapá</option>
+			<option value="AM">Amazonas</option>
+			<option value="BA">Bahia</option>
+			<option value="CE">Ceará</option>
+			<option value="DF">Distrito Federal</option>
+			<option value="ES">Espírito Santo</option>
+			<option value="GO">Goiás</option>
+			<option value="MA">Maranhão</option>
+			<option value="MT">Mato Grosso</option>
+			<option value="MS">Mato Grosso do Sul</option>
+			<option value="MG">Minas Gerais</option>
+			<option value="PA">Pará</option>
+			<option value="PB">Paraíba</option>
+			<option value="PR">Paraná</option>
+			<option value="PE">Pernambuco</option>
+			<option value="PI">Piauí</option>
+			<option value="RJ">Rio de Janeiro</option>
+			<option value="RN">Rio Grande do Norte</option>
+			<option value="RS">Rio Grande do Sul</option>
+			<option value="RO">Rondônia</option>
+			<option value="RR">Roraima</option>
+			<option value="SC">Santa Catarina</option>
+			<option value="SP">São Paulo</option>
+			<option value="SE">Sergipe</option>
+			<option value="TO">Tocantins</option>
+		</select><br><br>
+		
+		<input type="submit" value="Enviar">
+	</form>
   </body>
 </html>
