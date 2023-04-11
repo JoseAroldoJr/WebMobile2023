@@ -1,4 +1,5 @@
 body {
+  background-color: #eae2df;
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -23,12 +24,14 @@ p {
 img {
   display: block;
   margin: 0 auto;
+  margin-bottom: 30px;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 video {
   display: block;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 audio {
   display: block;
