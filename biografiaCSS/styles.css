@@ -22,6 +22,7 @@ p {
   margin-bottom: 20px;
 }
 img {
+  border: 5px solid rgb(0, 0, 0);
   display: block;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -29,6 +30,7 @@ img {
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 video {
+  border: 5px solid rgb(212, 209, 3);
   display: block;
   margin: 0 auto;
   margin-bottom: 30px;
