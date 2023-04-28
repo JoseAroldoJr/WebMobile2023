@@ -1,4 +1,4 @@
-const apiKey = "YOUR_API_KEY";
+const apiKey = "4f3c2dc2d2b811ba3d3b6f041ad8f608";
 const weatherEndpoint = "https://api.openweathermap.org/data/2.5/weather?q=";
 
 function getWeather() {
